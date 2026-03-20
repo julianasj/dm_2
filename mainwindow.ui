@@ -25,6 +25,29 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+    <property name ="styleSheet">
+        <string>
+        QMainWindow, QWidget#centralwidget {
+            background-color: #141221;
+            color: white;
+        }
+        QLabel#lblResult, QLabel#lblReason{
+            color: #FD77D7;
+        }
+        QCheckBox::indicator {
+            border: 1px solid #FD77D7;
+            background: #141221;
+            width: 14px;
+            height: 14px;
+            border-radius: 2px;
+        }
+        QCheckBox::indicator:checked {
+            background-color: #FD77D7;
+        }
+        </string>
+    </property>
+
+
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
@@ -80,6 +103,7 @@
      </item>
      <item row="6" column="0">
       <layout class="QVBoxLayout" name="verticalLayout">
+      <property name = "spacing"><number>20</number></property>
        <item>
         <widget class="QLabel" name="lblResult">
          <property name="text">
