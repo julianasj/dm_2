@@ -32,7 +32,7 @@
             color: white;
         }
         QLabel#lblResult, QLabel#lblReason{
-            color: #FD77D7;
+            color: white;
         }
         QCheckBox::indicator {
             border: 1px solid #FD77D7;
@@ -43,6 +43,22 @@
         }
         QCheckBox::indicator:checked {
             background-color: #FD77D7;
+        }
+
+        QPushButton#btnDecide {
+            background-color: #141221;
+            color: #FD77D7;
+            border: 2px solid #FD77D7;
+            border-radius: 5px;
+            font-weight: bold;
+            padding: 8px;
+        }
+        QPushButton#btnDecide:hover {
+            background-color: #FD77D7;
+            background: #141221;
+        }
+        QPushButton#btnDecide:pressed {
+            background-color: #b5569a;
         }
         </string>
     </property>
