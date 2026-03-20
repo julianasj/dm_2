@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>483</width>
-    <height>466</height>
+    <height>300</height>
    </rect>
   </property>
   <property name = "minimumSize">
     <size>
         <width>483</width>
-        <height>466</height>
+        <height>300</height>
     </size>
   </property>
   <property name = "maximumSize">
@@ -92,11 +92,11 @@
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>150</height>
+           <height>100</height>
           </size>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&gt;b&gt;WHY?&lt;/b&gt;&gt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;WHY?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
