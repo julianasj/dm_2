@@ -31,6 +31,10 @@
             background-color: #141221;
             color: white;
         }
+        QCheckBox {
+            color: white;
+            font-size: 13px;
+        }
         QLabel#lblResult, QLabel#lblReason{
             color: white;
         }
@@ -75,6 +79,11 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
+    <property name = "leftMargin"><number>30</number></property>
+    <property name = "rightMargin"><number>30</number></property>
+    <property name = "topMargin"><number>30</number></property>
+    <property name = "bottomMargin"><number>30</number></property>
+    <property name = "verticalSpacing"><number>20</number></property>
      <item row="1" column="0">
       <widget class="QCheckBox" name="checkHealth">
        <property name="text">
